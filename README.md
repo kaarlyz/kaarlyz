@@ -95,7 +95,7 @@ learn  ─►  build  ─►  break  ─►  debug  ─►  understand  ─►  
 <table>
   <tr>
     <td width="340" valign="top">
-      <img src="https://raw.githubusercontent.com/kaarlyz/myfxjournal/main/docs/screenshot-replay.png" width="100%" style="border-radius: 4px;" alt="KAFX Journal Preview" />
+      <img src="https://raw.githubusercontent.com/kaarlyz/myfxjournal/main/docs/screenshot-landing.png" width="100%" style="border-radius: 4px;" alt="KAFX Journal Preview" />
     </td>
     <td valign="top">
       <h3>📊 <a href="https://github.com/kaarlyz/myfxjournal">KAFX Journal</a> — Quantitative Trading Journal &amp; Analytics</h3>

@@ -1,5 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 210" width="100%" height="210">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="420">
   <defs>
+    <!-- Dot Matrix Pattern -->
+    <pattern id="grid-dots" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="12" r="1.5" class="grid-dot" />
+    </pattern>
+
     <style>
       @keyframes cursorBlink {
         0%, 100% { opacity: 1; }
@@ -10,38 +15,44 @@
         50% { opacity: 1; }
       }
 
-      .card-bg { fill: #0f172a; stroke: #1e293b; stroke-width: 1.5; rx: 6px; }
-      .header-bar { fill: #1e293b; rx: 6px 6px 0 0; }
+      .card-bg { fill: #0f172a; stroke: #1e293b; stroke-width: 2; rx: 8px; }
+      .header-bar { fill: #1e293b; rx: 8px 8px 0 0; }
+      .grid-dot { fill: #334155; opacity: 0.35; }
+
       .dot-red { fill: #ef4444; }
       .dot-yellow { fill: #f59e0b; }
       .dot-green { fill: #10b981; }
-      .terminal-title { fill: #94a3b8; font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: 11px; font-weight: 600; }
+      .terminal-title { fill: #94a3b8; font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: 13px; font-weight: 600; }
       
-      .name { fill: #f8fafc; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 24px; font-weight: 800; letter-spacing: -0.5px; }
-      .fullname { fill: #94a3b8; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 15px; font-weight: 500; }
-      .handle { fill: #38bdf8; font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: 13px; font-weight: 600; }
-      .tagline { fill: #cbd5e1; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 500; }
+      .hero-title { fill: #f8fafc; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 92px; font-weight: 900; letter-spacing: -2px; }
+      .hero-handle { fill: #38bdf8; font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: 26px; font-weight: 700; }
+      .hero-fullname { fill: #94a3b8; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 22px; font-weight: 500; }
       
-      .badge-bg { fill: #1e293b; stroke: #334155; stroke-width: 1; rx: 3px; }
-      .badge-txt { fill: #38bdf8; font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: 11px; font-weight: 600; }
+      .bold-tagline { fill: #38bdf8; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 16.5px; font-weight: 600; letter-spacing: -0.2px; }
       
-      .loop-container { fill: #1e293b; stroke: #334155; stroke-width: 1; rx: 4px; }
-      .loop-label { fill: #64748b; font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: 10px; font-weight: 700; letter-spacing: 0.5px; }
-      .loop-step { fill: #e2e8f0; font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: 11.5px; font-weight: 600; }
-      .loop-arrow { fill: #38bdf8; font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: 11.5px; font-weight: 700; }
+      .chip-bg { fill: #1e293b; stroke: #334155; stroke-width: 1.2; rx: 4px; }
+      .chip-txt { fill: #f8fafc; font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: 13px; font-weight: 600; }
+      .chip-highlight { fill: #38bdf8; }
+
+      .loop-container { fill: #1e293b; stroke: #334155; stroke-width: 1.2; rx: 6px; }
+      .loop-label { fill: #64748b; font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: 11px; font-weight: 700; letter-spacing: 0.5px; }
+      .loop-step { fill: #e2e8f0; font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: 14px; font-weight: 600; }
+      .loop-arrow { fill: #38bdf8; font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: 14px; font-weight: 700; }
       .cursor { fill: #38bdf8; animation: cursorBlink 1s infinite; }
-      .accent-line { stroke: #38bdf8; stroke-width: 2; animation: lineGlow 3s infinite; }
+      .accent-line { stroke: #38bdf8; stroke-width: 2.5; animation: lineGlow 3s infinite; }
 
       @media (prefers-color-scheme: light) {
         .card-bg { fill: #ffffff; stroke: #cbd5e1; }
         .header-bar { fill: #f1f5f9; }
+        .grid-dot { fill: #94a3b8; opacity: 0.3; }
         .terminal-title { fill: #64748b; }
-        .name { fill: #0f172a; }
-        .fullname { fill: #475569; }
-        .handle { fill: #0284c7; }
-        .tagline { fill: #334155; }
-        .badge-bg { fill: #f8fafc; stroke: #e2e8f0; }
-        .badge-txt { fill: #0369a1; }
+        .hero-title { fill: #0f172a; }
+        .hero-handle { fill: #0284c7; }
+        .hero-fullname { fill: #475569; }
+        .bold-tagline { fill: #0284c7; }
+        .chip-bg { fill: #f8fafc; stroke: #e2e8f0; }
+        .chip-txt { fill: #0f172a; }
+        .chip-highlight { fill: #0284c7; }
         .loop-container { fill: #f8fafc; stroke: #e2e8f0; }
         .loop-label { fill: #64748b; }
         .loop-step { fill: #1e293b; }
@@ -53,44 +64,53 @@
   </defs>
 
   <!-- Base Card -->
-  <rect x="5" y="5" width="840" height="200" class="card-bg" />
+  <rect x="6" y="6" width="1188" height="408" class="card-bg" />
   
+  <!-- Dot Matrix Overlay -->
+  <rect x="6" y="44" width="1188" height="370" fill="url(#grid-dots)" />
+
   <!-- Header Bar -->
-  <rect x="5" y="5" width="840" height="32" class="header-bar" />
-  <circle cx="24" cy="21" r="5" class="dot-red" />
-  <circle cx="40" cy="21" r="5" class="dot-yellow" />
-  <circle cx="56" cy="21" r="5" class="dot-green" />
-  <text x="75" y="25" class="terminal-title">eka@dev-box: ~/profile (zsh)</text>
+  <rect x="6" y="6" width="1188" height="38" class="header-bar" />
+  <circle cx="28" cy="25" r="6" class="dot-red" />
+  <circle cx="48" cy="25" r="6" class="dot-yellow" />
+  <circle cx="68" cy="25" r="6" class="dot-green" />
+  <text x="92" y="30" class="terminal-title">eka@dev-box: ~/profile (zsh)</text>
 
   <!-- Main Content Area -->
-  <g transform="translate(25, 45)">
-    <!-- Name, Full Name & Handle -->
-    <text x="0" y="30" class="name">EKA <tspan class="fullname">Restu Syahputra</tspan> <tspan class="handle">@kaarlyz</tspan></text>
-    <text x="0" y="52" class="tagline">Student Developer • Building Operational Tools, Automation &amp; Web Infrastructure</text>
+  <g transform="translate(45, 60)">
+    <!-- Giant Title & Name Subheader -->
+    <text x="0" y="85" class="hero-title">EKA</text>
+    <text x="210" y="55" class="hero-handle">@kaarlyz <tspan class="hero-fullname">• Eka Restu Syahputra (Kaaaxyws)</tspan></text>
     
-    <!-- Location & Status Badges -->
-    <g transform="translate(0, 66)">
-      <rect x="0" y="0" width="135" height="22" class="badge-bg" />
-      <text x="10" y="15" class="badge-txt">📍 Indonesia (SMA)</text>
+    <!-- Bold 1-Line Tagline -->
+    <text x="210" y="85" class="bold-tagline">"I build operational tools, trading tech &amp; automation — then break them until I understand."</text>
 
-      <rect x="145" y="0" width="175" height="22" class="badge-bg" />
-      <text x="155" y="15" class="badge-txt">⚡ Practical Engineering</text>
+    <!-- 3 Mini Stat Chips -->
+    <g transform="translate(0, 125)">
+      <!-- Chip 1: Repos -->
+      <rect x="0" y="0" width="210" height="36" class="chip-bg" />
+      <text x="16" y="23" class="chip-txt"><tspan class="chip-highlight">📦 8</tspan> Public Repositories</text>
 
-      <rect x="330" y="0" width="160" height="22" class="badge-bg" />
-      <text x="340" y="15" class="badge-txt">🛠️ Build &gt; Tech Badges</text>
+      <!-- Chip 2: Tech Core -->
+      <rect x="230" y="0" width="270" height="36" class="chip-bg" />
+      <text x="246" y="23" class="chip-txt"><tspan class="chip-highlight">⚡</tspan> MQL5 • TypeScript • Python</text>
+
+      <!-- Chip 3: Status -->
+      <rect x="520" y="0" width="240" height="36" class="chip-bg" />
+      <text x="536" y="23" class="chip-txt"><tspan class="chip-highlight">🇮🇩</tspan> SMA Student Builder</text>
     </g>
 
     <!-- Engineering Loop Box -->
-    <g transform="translate(0, 102)">
-      <rect x="0" y="0" width="790" height="42" class="loop-container" />
-      <text x="12" y="16" class="loop-label">ENGINEERING LOOP:</text>
-      <text x="12" y="32" class="loop-step">
+    <g transform="translate(0, 190)">
+      <rect x="0" y="0" width="1110" height="60" class="loop-container" />
+      <text x="20" y="24" class="loop-label">ENGINEERING LOOP:</text>
+      <text x="20" y="45" class="loop-step">
         learn <tspan class="loop-arrow">→</tspan> build <tspan class="loop-arrow">→</tspan> break <tspan class="loop-arrow">→</tspan> debug <tspan class="loop-arrow">→</tspan> understand <tspan class="loop-arrow">→</tspan> improve
       </text>
-      <rect x="525" y="21" width="8" height="13" class="cursor" />
+      <rect x="735" y="30" width="10" height="18" class="cursor" />
     </g>
   </g>
 
   <!-- Bottom Accent Line -->
-  <line x1="5" y1="203" x2="845" y2="203" class="accent-line" />
+  <line x1="6" y1="412" x2="1194" y2="412" class="accent-line" />
 </svg>
