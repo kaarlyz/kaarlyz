@@ -33,6 +33,7 @@ learn  ─►  build  ─►  break  ─►  debug  ─►  understand  ─►  
 * **Engineering Mindset**: Practical engineering > hype. AI tools are productivity multipliers for acceleration, not a replacement for code comprehension and core fundamentals.
 * **Growth Trajectory**: Applied this disciplined engineering loop to my academics, moving my high school class ranking consistently from **11th ➔ 8th ➔ 7th ➔ 5th**.
 * **Principles**: Build first, understand deep; automate repetitive work; detail-obsessed UI/UX; zero unnecessary complexity.
+* **Also an EA developer**: I write MetaTrader 5 Expert Advisors (MQL5) — execution logic, backtest replay, and trading analytics, all as engineering experiments.
 
 <p align="center">
   <img src="./assets/divider.svg" width="100%" alt="Section Divider" />
