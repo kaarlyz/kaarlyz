@@ -16,13 +16,22 @@
   <img src="./assets/header.svg" width="100%" alt="Eka Profile Terminal Hero" />
 </p>
 
+<!-- Anchor Nav Pills -->
+<p align="center">
+  <a href="#-about-me"><img src="https://img.shields.io/badge/👤%20About-Me-0F172A?style=flat-square&logoColor=38bdf8" alt="About Me Nav" /></a> &nbsp;
+  <a href="#-currently-building--technical-focus"><img src="https://img.shields.io/badge/🔨%20Building-Focus-0F172A?style=flat-square&logoColor=38bdf8" alt="Building Focus Nav" /></a> &nbsp;
+  <a href="#-featured-engineering-projects"><img src="https://img.shields.io/badge/🚀%20Featured-Projects-0F172A?style=flat-square&logoColor=38bdf8" alt="Projects Nav" /></a> &nbsp;
+  <a href="#-tech-stack--skills-matrix"><img src="https://img.shields.io/badge/🛠️%20Tech-Stack-0F172A?style=flat-square&logoColor=38bdf8" alt="Stack Nav" /></a> &nbsp;
+  <a href="#-activity--contribution-snake"><img src="https://img.shields.io/badge/📈%20Activity-0F172A?style=flat-square&logoColor=38bdf8" alt="Activity Nav" /></a>
+</p>
+
 <p align="center">
   <img src="./assets/divider.svg" width="100%" alt="Section Divider" />
 </p>
 
 ## 👤 About Me
 
-Hey, I'm **Eka Restu Syahputra** (`@kaarlyz` / `Kaaaxyws`) — a high school student & developer from Indonesia 🇮🇩 who daily-drives **Linux** and lives in the terminal.
+Hey, I'm **Eka Restu Syahputra** (`@kaarlyz` / `Kaaaxyws`), an ambitious **high school student & developer from Indonesia** 🇮🇩.
 
 I don't collect technology badges or pretend to be an enterprise CTO. Instead, I build practical tools to solve real operational friction, automate repetitive tasks, and understand systems from the ground up.
 
@@ -33,13 +42,28 @@ learn  ─►  build  ─►  break  ─►  debug  ─►  understand  ─►  
 * **Engineering Mindset**: Practical engineering > hype. AI tools are productivity multipliers for acceleration, not a replacement for code comprehension and core fundamentals.
 * **Growth Trajectory**: Applied this disciplined engineering loop to my academics, moving my high school class ranking consistently from **11th ➔ 8th ➔ 7th ➔ 5th**.
 * **Principles**: Build first, understand deep; automate repetitive work; detail-obsessed UI/UX; zero unnecessary complexity.
-* **Also an EA developer**: I write MetaTrader 5 Expert Advisors (MQL5) — execution logic, backtest replay, and trading analytics, all as engineering experiments.
+
+<p align="center">
+  <img src="./assets/divider.svg" width="100%" alt="Section Divider" />
+</p>
+
+## 🔨 Currently Building & Technical Focus
+
+* **📦 [Janka](https://github.com/kaarlyz/janka) (Logistics Petty Cash System)**: Refining multi-worksheet ExcelJS export formatting, 6-column `KAS REGULER` layout alignment, and J&T XLSX nightly reconciliation engine accuracy.
+* **📊 [KAFX Journal](https://github.com/kaarlyz/myfxjournal) (Trading Analytics Engine)**: Optimizing backtest tick replay precision and MQL5 MetaTrader 5 trade execution sync latency.
+* **🤖 [RemiBot](https://github.com/kaarlyz/remibot) (WhatsApp Automation Core)**: Strengthening Baileys socket queue stability and modular plugin permission middleware.
 
 <p align="center">
   <img src="./assets/divider.svg" width="100%" alt="Section Divider" />
 </p>
 
 ## 🚀 Featured Engineering Projects
+
+<p align="center">
+  <a href="https://github.com/kaarlyz/janka">
+    <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=kaarlyz&repo=janka&theme=transparent&title_color=38bdf8&text_color=94a3b8&icon_color=38bdf8&hide_border=true" alt="Janka Repo Pin" />
+  </a>
+</p>
 
 <table>
   <tr>
@@ -61,6 +85,12 @@ learn  ─►  build  ─►  break  ─►  debug  ─►  understand  ─►  
 </table>
 
 <br />
+
+<p align="center">
+  <a href="https://github.com/kaarlyz/myfxjournal">
+    <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=kaarlyz&repo=myfxjournal&theme=transparent&title_color=38bdf8&text_color=94a3b8&icon_color=38bdf8&hide_border=true" alt="KAFX Journal Repo Pin" />
+  </a>
+</p>
 
 <table>
   <tr>
