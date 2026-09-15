@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 180" width="100%" height="100%">
+  <defs>
+    <style>
+      .card-bg { fill: #0F172A; stroke: #1E293B; stroke-width: 2px; }
+      .card-title { fill: #38BDF8; font-family: system-ui, -apple-system, sans-serif; font-size: 15px; font-weight: 700; text-anchor: middle; }
+      .text-badge-bg { fill: #1E293B; stroke: #334155; stroke-width: 1px; }
+      .text-badge-txt { fill: #38BDF8; font-family: system-ui, -apple-system, sans-serif; font-size: 12px; font-weight: 700; text-anchor: middle; }
+
+      @media (prefers-color-scheme: light) {
+        .card-bg { fill: #F8FAFC; stroke: #E2E8F0; }
+        .card-title { fill: #0284C7; }
+        .text-badge-bg { fill: #E2E8F0; stroke: #CBD5E1; }
+        .text-badge-txt { fill: #0284C7; }
+      }
+    </style>
+  </defs>
+
+  <!-- Box 1: Languages -->
+  <rect class="card-bg" x="10" y="10" width="250" height="160" rx="12" ry="12" />
+  <text class="card-title" x="135" y="40">💻 Languages</text>
+  <image href="https://skillicons.dev/icons?i=ts,js,py" x="35" y="60" width="140" height="48" />
+  <g transform="translate(180, 68)">
+    <rect class="text-badge-bg" x="0" y="0" width="55" height="32" rx="6" />
+    <text class="text-badge-txt" x="27" y="20">MQL5</text>
+  </g>
+
+  <!-- Box 2: Frameworks & Libraries -->
+  <rect class="card-bg" x="275" y="10" width="250" height="160" rx="12" ry="12" />
+  <text class="card-title" x="400" y="40">⚡ Frameworks &amp; Libraries</text>
+  <image href="https://skillicons.dev/icons?i=react,vite,tailwind,nodejs" x="295" y="65" width="210" height="48" />
+
+  <!-- Box 3: Tools & Platforms -->
+  <rect class="card-bg" x="540" y="10" width="250" height="160" rx="12" ry="12" />
+  <text class="card-title" x="665" y="40">🛠️ Tools &amp; Platforms</text>
+  <image href="https://skillicons.dev/icons?i=git,linux,github,vscode" x="560" y="65" width="210" height="48" />
+</svg>

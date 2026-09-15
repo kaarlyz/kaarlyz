@@ -7,6 +7,10 @@
 </p>
 
 <p align="center">
+  <img src="./assets/profile-card.svg" width="100%" alt="Eka Restu Syahputra Profile Card" />
+</p>
+
+<p align="center">
   <img src="https://komarev.com/ghpvc/?username=kaarlyz&color=38bdf8&style=flat-square" alt="Profile Views" /> &nbsp;•&nbsp;
   <span>📍 Indonesia 🇮🇩</span> &nbsp;•&nbsp;
   <span>🎓 High School Student &amp; Builder</span>
@@ -140,6 +144,10 @@ Personal web showcase and client agency website templates built with clean CSS &
 ## 🛠️ Tech Stack & Skills Matrix
 
 <p align="center">
+  <img src="./assets/stack-grid.svg" width="100%" alt="Categorized Tech Stack Grid" />
+</p>
+
+<p align="center">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=ts,js,py,react,vite,tailwind,nodejs,git,linux" alt="Skillicons" />
   </a>
@@ -178,6 +186,8 @@ Personal web showcase and client agency website templates built with clean CSS &
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=kaarlyz&theme=dark&background=0F172A&border=1E293B&stroke=38BDF8&ring=38BDF8&fire=38BDF8&currStreakNum=F8FAFC&sideNums=F8FAFC&currStreakLabel=38BDF8&sideLabels=94A3B8&dates=64748B" alt="Kaarlyz GitHub Streak Stats" height="150" />
+  &nbsp;
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=kaarlyz&show_icons=true&theme=dark&bg_color=0F172A&border_color=1E293B&title_color=38BDF8&text_color=94a3b8&icon_color=38BDF8" alt="Kaarlyz GitHub Stats" height="150" />
 </p>
 
 <p align="center">
