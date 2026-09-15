@@ -22,7 +22,7 @@
 
 ## 👤 About Me
 
-Hey, I'm **Eka Restu Syahputra** (`@kaarlyz` / `Kaaaxyws`), an ambitious **high school student & developer from Indonesia** 🇮🇩.
+Hey, I'm **Eka Restu Syahputra** (`@kaarlyz` / `Kaaaxyws`) — a high school student & developer from Indonesia 🇮🇩 who daily-drives **Linux** and lives in the terminal.
 
 I don't collect technology badges or pretend to be an enterprise CTO. Instead, I build practical tools to solve real operational friction, automate repetitive tasks, and understand systems from the ground up.
 
