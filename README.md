@@ -7,22 +7,22 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=kaarlyz&color=38bdf8&style=flat-square" alt="Profile Views" /> &nbsp;
+  <img src="https://komarev.com/ghpvc/?username=kaarlyz&color=38bdf8&style=flat-square" alt="Profile Views" /> &nbsp;•&nbsp;
   <span>📍 Indonesia 🇮🇩</span> &nbsp;•&nbsp;
   <span>🎓 High School Student &amp; Builder</span>
 </p>
-
-<br />
 
 <p align="center">
   <img src="./assets/header.svg" width="100%" alt="Eka Profile Terminal Hero" />
 </p>
 
----
+<p align="center">
+  <img src="./assets/divider.svg" width="100%" alt="Section Divider" />
+</p>
 
 ## 👤 About Me
 
-Hey, I'm **Eka** (`@kaarlyz` / `Kaaaxyws`), an ambitious **high school student & developer from Indonesia** 🇮🇩.
+Hey, I'm **Eka Restu Syahputra** (`@kaarlyz` / `Kaaaxyws`), an ambitious **high school student & developer from Indonesia** 🇮🇩.
 
 I don't collect technology badges or pretend to be an enterprise CTO. Instead, I build practical tools to solve real operational friction, automate repetitive tasks, and understand systems from the ground up.
 
@@ -34,56 +34,53 @@ learn  ─►  build  ─►  break  ─►  debug  ─►  understand  ─►  
 * **Growth Trajectory**: Applied this disciplined engineering loop to my academics, moving my high school class ranking consistently from **11th ➔ 8th ➔ 7th ➔ 5th**.
 * **Principles**: Build first, understand deep; automate repetitive work; detail-obsessed UI/UX; zero unnecessary complexity.
 
----
-
-## 🛠️ Tech Stack & Capabilities
-
 <p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=ts,js,py,react,vite,tailwind,nodejs,git,linux" alt="Skillicons" />
-  </a>
+  <img src="./assets/divider.svg" width="100%" alt="Section Divider" />
 </p>
-
-* **Learning Labels**: `MQL5`: experimenting with MetaTrader 5 financial protocol bridges; `Backend`: learning Node.js socket architecture & Baileys automation queues.
-
----
 
 ## 🚀 Featured Engineering Projects
 
-### 📦 [Janka](https://github.com/kaarlyz/janka) — *Logistics Petty Cash & Waybill System*
-> **REAL PROBLEM ➔ WORKFLOW ➔ TOOL ➔ AUTOMATION**
+<table>
+  <tr>
+    <td width="340" valign="top">
+      <img src="https://raw.githubusercontent.com/kaarlyz/janka/main/docs/screenshot-dashboard.png" width="100%" style="border-radius: 4px;" alt="Janka Dashboard" />
+    </td>
+    <td valign="top">
+      <h3>📦 <a href="https://github.com/kaarlyz/janka">Janka</a> — Logistics Petty Cash &amp; Waybill System</h3>
+      <p><i>REAL PROBLEM ➔ WORKFLOW ➔ TOOL ➔ AUTOMATION</i></p>
+      <p>Desktop web application built to solve physical warehouse intake and shipping paperwork bottlenecks.</p>
+      <ul>
+        <li><b>Thermal Shipping Labels</b>: 100x150mm label renderer with SVG barcode pattern generation for instant printing.</li>
+        <li><b>Nightly Reconciliation Engine</b>: Automated J&amp;T XLSX report parser matching waybill IDs against local records.</li>
+        <li><b>Audit-Ready Excel Exporter</b>: Multi-worksheet monthly Excel exporter (<code>KAS REGULER</code>) with native <code>=SUM()</code> formulas, <code>Rp</code>/<code>kg</code> cell formatting, and landscape print setups.</li>
+      </ul>
+      <p><b>Stack</b>: <code>TypeScript</code> • <code>React 18</code> • <code>Vite 5</code> • <code>Tailwind CSS 3</code> • <code>ExcelJS</code> • <code>SheetJS (xlsx)</code></p>
+    </td>
+  </tr>
+</table>
 
-A high-density logistics petty-cash ledger and waybill management desktop web app built to solve physical warehouse intake and shipping paperwork bottlenecks.
+<br />
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/kaarlyz/janka/main/docs/screenshot-dashboard.png" width="100%" alt="Janka Dashboard Screenshot" style="border-radius: 4px;" />
-</p>
+<table>
+  <tr>
+    <td width="340" valign="top">
+      <img src="https://raw.githubusercontent.com/kaarlyz/myfxjournal/main/pict.jpeg" width="100%" style="border-radius: 4px;" alt="KAFX Journal Preview" />
+    </td>
+    <td valign="top">
+      <h3>📊 <a href="https://github.com/kaarlyz/myfxjournal">KAFX Journal</a> — Quantitative Trading Journal &amp; Analytics</h3>
+      <p><i>FINANCIAL PROTOCOL &amp; DATA ANALYTICS EXPERIMENTATION</i></p>
+      <p>Financial data analytics platform and backtesting replay tool engineered to track and audit market execution strategies.</p>
+      <ul>
+        <li><b>MT5 Expert Advisor Bridge</b>: Automated trade execution data syncing between MetaTrader 5 terminal and local database.</li>
+        <li><b>Backtest Replay Engine</b>: Interactive chart replay system for evaluating historical trade setups.</li>
+        <li><b>Risk/Reward Analytics</b>: Statistical win-rate, expectancy, and draw-down metrics visualizations.</li>
+      </ul>
+      <p><b>Stack</b>: <code>TypeScript</code> (2.8MB) • <code>MQL5</code> (260KB) • <code>Python</code> • <code>Chart.js</code></p>
+    </td>
+  </tr>
+</table>
 
-* **Core Stack**: `TypeScript`, `React 18`, `Vite 5`, `Tailwind CSS 3`, `ExcelJS`, `SheetJS (xlsx)`
-* **Key Features**:
-  * **Thermal Shipping Labels**: 100x150mm label renderer with SVG barcode pattern generation for instant thermal printing.
-  * **Nightly Reconciliation Engine**: Automated J&T XLSX report parser matching waybill IDs against local database records.
-  * **Audit-Ready Excel Exporter**: Multi-worksheet monthly Excel exporter (`KAS REGULER`) featuring native `=SUM()` total formulas, custom currency/weight cell formatting (`Rp`, `kg`), landscape print setups, and freeze panes.
-  * **Operational UI**: Light paper-logistics theme with 2px–4px crisp borders, tabular typography, and zero decorative fluff.
-
----
-
-### 📊 [KAFX Journal / myfxjournal](https://github.com/kaarlyz/myfxjournal) — *Quantitative Trading Journal & Analytics*
-> **FINANCIAL PROTOCOL & DATA ANALYTICS EXPERIMENTATION**
-
-A financial data analytics platform and backtesting replay tool engineered to track, analyze, and audit market execution strategies.
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/kaarlyz/myfxjournal/main/pict.jpeg" width="100%" alt="KAFX Journal Preview" style="border-radius: 4px;" />
-</p>
-
-* **Core Stack**: `TypeScript` (2.8MB), `MQL5` (260KB), `Python`, `Chart.js`
-* **Key Features**:
-  * **MT5 Expert Advisor Bridge**: Automated execution data syncing between MetaTrader 5 terminal and local journal database.
-  * **Backtest Replay Engine**: Interactive chart replay system for evaluating historical trade setups.
-  * **Risk/Reward Analytics**: Statistical win-rate, expectancy, draw-down metrics, and trade distribution visualizations.
-
----
+<br />
 
 ### 🤖 [RemiBot](https://github.com/kaarlyz/remibot) — *Modular WhatsApp Automation Engine*
 > **MESSAGING AUTOMATION & WORKFLOW QUEUE**
@@ -91,26 +88,52 @@ A financial data analytics platform and backtesting replay tool engineered to tr
 A modular Node.js WhatsApp automation bot built on top of the Baileys socket library for handling structured messaging workflows.
 
 * **Core Stack**: `JavaScript` (Node.js), `Baileys (WA Web Socket API)`
-* **Key Features**:
-  * **Modular Plugin Architecture**: Central permission manager with dynamic command router.
-  * **Persistent Broadcast Queue**: Message queue scheduler handling rate-limited outbound broadcasts.
-  * **School Management Modules**: Automated academic announcements and interactive student menu flows.
+* **Key Features**: Plugin permission architecture, persistent broadcast queue, and automated school announcements.
 
 ---
 
 ### ⚡ [Particle-Shape-Gesture](https://github.com/kaarlyz/Particle-shape-gesture) — *Computer Vision Gesture Interaction*
 > **EXPERIMENTAL HARDWARE & VISION INTERACTION**
 
-An experimental Python computer vision project mapping real-time hand gesture tracking to dynamic particle shape simulations.
-
-* **Core Stack**: `Python`, `OpenCV`
+An experimental Python computer vision project mapping real-time hand gesture tracking to dynamic particle shape simulations (`Python`, `OpenCV`).
 
 ---
 
 ### 🌐 [myporto](https://github.com/kaarlyz/myporto) & [servicewebsite](https://github.com/kaarlyz/servicewebsite)
 Personal web showcase and client agency website templates built with clean CSS & TypeScript.
 
----
+<p align="center">
+  <img src="./assets/divider.svg" width="100%" alt="Section Divider" />
+</p>
+
+## 🛠️ Tech Stack & Skills Matrix
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=ts,js,py,react,vite,tailwind,nodejs,git,linux" alt="Skillicons" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="./assets/skills.svg" width="100%" alt="Relative Skill Bars" />
+</p>
+
+<details>
+  <summary><b>🔍 Detailed Tech Matrix &amp; Learning Focus</b></summary>
+  <br />
+  <ul>
+    <li><b>Core Web Engineering</b>: TypeScript, JavaScript, React 18, Tailwind CSS 3, Vite 5</li>
+    <li><b>Backend &amp; Scripting</b>: Node.js, Python, MQL5 (MetaTrader 5 Integration)</li>
+    <li><b>Data &amp; File Systems</b>: ExcelJS, SheetJS <code>xlsx</code>, LocalStorage / Web Storage</li>
+    <li><b>Automation &amp; Integrations</b>: Baileys (WA Web Socket API), REST APIs, Git &amp; GitHub Actions</li>
+    <li><b>Currently Learning Focus</b>: Backend fundamentals, cybersecurity basics, system design architecture.</li>
+    <li><b>Dev Mindset</b>: AI-assisted development (Copilot &amp; LLMs as multipliers grounded in manual code comprehension &amp; debugging).</li>
+  </ul>
+</details>
+
+<p align="center">
+  <img src="./assets/divider.svg" width="100%" alt="Section Divider" />
+</p>
 
 ## 📈 Activity & Contribution Snake
 
@@ -126,9 +149,11 @@ Personal web showcase and client agency website templates built with clean CSS &
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=kaarlyz&theme=dark&background=0F172A&border=1E293B&stroke=38BDF8&ring=38BDF8&fire=38BDF8&currStreakNum=F8FAFC&sideNums=F8FAFC&currStreakLabel=38BDF8&sideLabels=94A3B8&dates=64748B" alt="Kaarlyz GitHub Streak Stats" height="150" />
 </p>
 
----
-
 <p align="center">
   <i>"Build first, debug deep, and automate the mundane."</i><br />
-  <b>Eka (@kaarlyz)</b>
+  <b>Eka Restu Syahputra (@kaarlyz)</b>
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0F172A&height=120&section=footer" width="100%" alt="Footer Wave Banner" />
 </p>

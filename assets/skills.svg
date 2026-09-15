@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 220" width="100%" height="220">
+  <defs>
+    <style>
+      @keyframes animTs { from { width: 0px; } to { width: 468px; } }   /* 78% of 600px */
+      @keyframes animJs { from { width: 0px; } to { width: 420px; } }   /* 70% of 600px */
+      @keyframes animPy { from { width: 0px; } to { width: 330px; } }   /* 55% of 600px */
+      @keyframes animMql { from { width: 0px; } to { width: 240px; } }  /* 40% of 600px */
+      @keyframes animCss { from { width: 0px; } to { width: 390px; } }  /* 65% of 600px */
+
+      .skills-card { fill: #0f172a; stroke: #1e293b; stroke-width: 1.5; rx: 6px; }
+      .bar-bg { fill: #1e293b; rx: 3px; }
+      .bar-ts { fill: #3178c6; rx: 3px; animation: animTs 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
+      .bar-js { fill: #f7df1e; rx: 3px; animation: animJs 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
+      .bar-py { fill: #3776ab; rx: 3px; animation: animPy 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
+      .bar-mql { fill: #0088cc; rx: 3px; animation: animMql 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
+      .bar-css { fill: #38bdf8; rx: 3px; animation: animCss 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
+
+      .lang-label { fill: #f8fafc; font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: 11.5px; font-weight: 600; }
+      .percent-label { fill: #94a3b8; font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: 11px; font-weight: 600; }
+      .disclaimer { fill: #64748b; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 10.5px; font-style: italic; }
+
+      @media (prefers-color-scheme: light) {
+        .skills-card { fill: #ffffff; stroke: #cbd5e1; }
+        .bar-bg { fill: #f1f5f9; }
+        .lang-label { fill: #0f172a; }
+        .percent-label { fill: #475569; }
+        .disclaimer { fill: #64748b; }
+      }
+    </style>
+  </defs>
+
+  <!-- Background Card -->
+  <rect x="5" y="5" width="790" height="210" class="skills-card" />
+
+  <g transform="translate(25, 25)">
+    <!-- TypeScript (78%) -->
+    <text x="0" y="16" class="lang-label">TypeScript</text>
+    <rect x="130" y="5" width="600" height="13" class="bar-bg" />
+    <rect x="130" y="5" width="468" height="13" class="bar-ts" />
+    <text x="740" y="16" class="percent-label">78%</text>
+
+    <!-- JavaScript (70%) -->
+    <text x="0" y="51" class="lang-label">JavaScript (Node)</text>
+    <rect x="130" y="40" width="600" height="13" class="bar-bg" />
+    <rect x="130" y="40" width="420" height="13" class="bar-js" />
+    <text x="740" y="51" class="percent-label">70%</text>
+
+    <!-- Python (55%) -->
+    <text x="0" y="86" class="lang-label">Python</text>
+    <rect x="130" y="75" width="600" height="13" class="bar-bg" />
+    <rect x="130" y="75" width="330" height="13" class="bar-py" />
+    <text x="740" y="86" class="percent-label">55%</text>
+
+    <!-- HTML / CSS (65%) -->
+    <text x="0" y="121" class="lang-label">HTML / CSS (Tailwind)</text>
+    <rect x="130" y="110" width="600" height="13" class="bar-bg" />
+    <rect x="130" y="110" width="390" height="13" class="bar-css" />
+    <text x="740" y="121" class="percent-label">65%</text>
+
+    <!-- MQL5 (40%) -->
+    <text x="0" y="156" class="lang-label">MQL5 (MT5 EA)</text>
+    <rect x="130" y="145" width="600" height="13" class="bar-bg" />
+    <rect x="130" y="145" width="240" height="13" class="bar-mql" />
+    <text x="740" y="156" class="percent-label">40%</text>
+
+    <!-- Disclaimer -->
+    <text x="130" y="180" class="disclaimer">* Relative exposure metrics estimated based on committed code volume in public repositories, not formal certification.</text>
+  </g>
+</svg>
