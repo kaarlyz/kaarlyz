@@ -11,28 +11,54 @@ Hey, I'm **Eka Restu Syahputra** (`@kaarlyz`). I build practical tools to solve 
 
 `learn ─► build ─► break ─► debug ─► understand ─► improve`
 
-* **Engineering Mindset**: Practical engineering over hype. AI tools are productivity multipliers for acceleration, not a replacement for code comprehension and core fundamentals.
-* **Principles**: Build first, understand deep; automate repetitive work; detail-obsessed UI/UX; zero unnecessary complexity.
-
 ---
 
 ### 🚀 Featured Engineering Projects
 
-#### 📈 [MCP-TRADINGVIEW](https://github.com/kaarlyz/MCP-TRADINGVIEW) — *TradingView AI Integration*
-An integrated Model Context Protocol (MCP) server for TradingView Desktop. It allows AI Agents to directly interact with TradingView charts via Chrome DevTools Protocol (CDP) for live vision reading, chart control, and backtest automation.
-`Node.js` • `MCP` • `Chrome DevTools Protocol (CDP)`
-
-#### 📊 [KAFX Journal](https://github.com/kaarlyz/myfxjournal) — *Quantitative Trading Analytics*
-Financial data analytics platform and backtesting replay tool engineered to track and audit market execution strategies. Features MT5 Expert Advisor bridge for execution syncing and statistical win-rate metrics.
-`TypeScript` • `React` • `MQL5` • `Python`
-
-#### 📦 [Janka](https://github.com/kaarlyz/janka) — *Logistics Petty Cash & Waybill System*
-Desktop web application built to solve physical warehouse intake and shipping paperwork bottlenecks. Features thermal shipping label rendering, J&T XLSX nightly reconciliation engine, and audit-ready Excel exporter.
-`TypeScript` • `React` • `Vite` • `ExcelJS`
+<table width="100%">
+  <tr>
+    <td width="350" valign="top">
+      <a href="https://github.com/kaarlyz/myfxjournal">
+        <img src="https://raw.githubusercontent.com/kaarlyz/myfxjournal/main/docs/screenshot-landing.png" width="100%" style="border-radius: 6px; border: 2px solid #30363d;" alt="KAFX Journal Preview" />
+      </a>
+    </td>
+    <td valign="top">
+      <h3>📊 <a href="https://github.com/kaarlyz/myfxjournal">KAFX Journal</a></h3>
+      <p><i>Quantitative Trading Analytics & Backtest Engine</i></p>
+      <p>Financial data analytics platform and backtesting replay tool engineered to track and audit market execution strategies. Features MT5 Expert Advisor bridge for execution syncing.</p>
+      <p><code>TypeScript</code> • <code>React</code> • <code>MQL5</code> • <code>Python</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="350" valign="top">
+      <a href="https://github.com/kaarlyz/MCP-TRADINGVIEW">
+        <img src="https://capsule-render.vercel.app/api?type=waving&color=0F172A&height=180&section=header&text=MCP%20TradingView&fontSize=32&fontColor=38bdf8" width="100%" style="border-radius: 6px; border: 2px solid #30363d;" alt="MCP TradingView" />
+      </a>
+    </td>
+    <td valign="top">
+      <h3>📈 <a href="https://github.com/kaarlyz/MCP-TRADINGVIEW">MCP-TRADINGVIEW</a></h3>
+      <p><i>AI TradingView Desktop Integration</i></p>
+      <p>Model Context Protocol (MCP) server for TradingView Desktop. Allows AI Agents to interact directly with TradingView charts via CDP for live vision reading, chart control, and backtest automation.</p>
+      <p><code>Node.js</code> • <code>MCP</code> • <code>CDP</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="350" valign="top">
+      <a href="https://github.com/kaarlyz/janka">
+        <img src="https://raw.githubusercontent.com/kaarlyz/janka/main/docs/screenshot-dashboard.png" width="100%" style="border-radius: 6px; border: 2px solid #30363d;" alt="Janka Dashboard" />
+      </a>
+    </td>
+    <td valign="top">
+      <h3>📦 <a href="https://github.com/kaarlyz/janka">Janka</a></h3>
+      <p><i>Logistics Petty Cash & Waybill System</i></p>
+      <p>Desktop web application built to solve warehouse shipping paperwork bottlenecks. Features thermal shipping label rendering, nightly XLSX reconciliation engine, and audit-ready Excel exporter.</p>
+      <p><code>TypeScript</code> • <code>React</code> • <code>Vite</code> • <code>ExcelJS</code></p>
+    </td>
+  </tr>
+</table>
 
 #### 🤖 [RemiBot](https://github.com/kaarlyz/remibot) — *Modular WhatsApp Automation Engine*
-A modular Node.js WhatsApp automation bot built on top of the Baileys socket library for handling structured messaging workflows, persistent broadcast queues, and automated announcements.
-`JavaScript` • `Node.js` • `Baileys WA Socket`
+A modular Node.js WhatsApp automation bot built on top of the Baileys socket library for handling structured messaging workflows and persistent broadcast queues. `JavaScript` • `Baileys WA Socket`
 
 ---
 
@@ -46,7 +72,6 @@ A modular Node.js WhatsApp automation bot built on top of the Baileys socket lib
 
 * **Core Web Engineering**: TypeScript, JavaScript, React, Tailwind CSS, Vite
 * **Backend & Integrations**: Node.js, Python, MQL5 (MetaTrader 5), Baileys (WA API)
-* **Currently Learning**: Backend architecture fundamentals, cybersecurity basics, LLM / AI tool building.
 
 ---
 
@@ -58,10 +83,4 @@ A modular Node.js WhatsApp automation bot built on top of the Baileys socket lib
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kaarlyz/kaarlyz/output/github-contribution-grid-snake.svg" />
     <img alt="GitHub Contribution Grid Snake" src="https://raw.githubusercontent.com/kaarlyz/kaarlyz/output/github-contribution-grid-snake.svg" width="800" />
   </picture>
-</div>
-
-<div align="center">
-  <br />
-  <i>"Build first, debug deep, and automate the mundane."</i><br />
-  <b>Eka Restu Syahputra (@kaarlyz)</b>
 </div>
