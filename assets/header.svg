@@ -15,50 +15,50 @@
         50% { opacity: 1; }
       }
 
-      .card-bg { fill: #0f172a; stroke: #1e293b; stroke-width: 2; rx: 8px; }
-      .header-bar { fill: #1e293b; rx: 8px 8px 0 0; }
-      .grid-dot { fill: #334155; opacity: 0.35; }
+      .card-bg { fill: #121214; stroke: #27272a; stroke-width: 2; rx: 8px; }
+      .header-bar { fill: #27272a; rx: 8px 8px 0 0; }
+      .grid-dot { fill: #3f3f46; opacity: 0.35; }
 
       .dot-red { fill: #ef4444; }
-      .dot-yellow { fill: #f59e0b; }
-      .dot-green { fill: #10b981; }
+      .dot-yellow { fill: #d4d4d8; }
+      .dot-green { fill: #a1a1aa; }
       .terminal-title { fill: #94a3b8; font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: 13px; font-weight: 600; }
       
       .hero-title { fill: #f8fafc; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 92px; font-weight: 900; letter-spacing: -2px; }
-      .hero-handle { fill: #38bdf8; font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: 26px; font-weight: 700; }
+      .hero-handle { fill: #d4d4d8; font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: 26px; font-weight: 700; }
       .hero-fullname { fill: #94a3b8; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 22px; font-weight: 500; }
       
-      .bold-tagline { fill: #38bdf8; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 16.5px; font-weight: 600; letter-spacing: -0.2px; }
+      .bold-tagline { fill: #d4d4d8; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 16.5px; font-weight: 600; letter-spacing: -0.2px; }
       
-      .chip-bg { fill: #1e293b; stroke: #334155; stroke-width: 1.2; rx: 4px; }
+      .chip-bg { fill: #27272a; stroke: #3f3f46; stroke-width: 1.2; rx: 4px; }
       .chip-txt { fill: #f8fafc; font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: 13px; font-weight: 600; }
-      .chip-highlight { fill: #38bdf8; }
+      .chip-highlight { fill: #d4d4d8; }
 
-      .loop-container { fill: #1e293b; stroke: #334155; stroke-width: 1.2; rx: 6px; }
+      .loop-container { fill: #27272a; stroke: #3f3f46; stroke-width: 1.2; rx: 6px; }
       .loop-label { fill: #64748b; font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: 11px; font-weight: 700; letter-spacing: 0.5px; }
       .loop-step { fill: #e2e8f0; font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: 14px; font-weight: 600; }
-      .loop-arrow { fill: #38bdf8; font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: 14px; font-weight: 700; }
-      .cursor { fill: #38bdf8; animation: cursorBlink 1s infinite; }
-      .accent-line { stroke: #38bdf8; stroke-width: 2.5; animation: lineGlow 3s infinite; }
+      .loop-arrow { fill: #d4d4d8; font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: 14px; font-weight: 700; }
+      .cursor { fill: #d4d4d8; animation: cursorBlink 1s infinite; }
+      .accent-line { stroke: #d4d4d8; stroke-width: 2.5; animation: lineGlow 3s infinite; }
 
       @media (prefers-color-scheme: light) {
         .card-bg { fill: #ffffff; stroke: #cbd5e1; }
         .header-bar { fill: #f1f5f9; }
         .grid-dot { fill: #94a3b8; opacity: 0.3; }
         .terminal-title { fill: #64748b; }
-        .hero-title { fill: #0f172a; }
-        .hero-handle { fill: #0284c7; }
+        .hero-title { fill: #121214; }
+        .hero-handle { fill: #71717a; }
         .hero-fullname { fill: #475569; }
-        .bold-tagline { fill: #0284c7; }
+        .bold-tagline { fill: #71717a; }
         .chip-bg { fill: #f8fafc; stroke: #e2e8f0; }
-        .chip-txt { fill: #0f172a; }
-        .chip-highlight { fill: #0284c7; }
+        .chip-txt { fill: #121214; }
+        .chip-highlight { fill: #71717a; }
         .loop-container { fill: #f8fafc; stroke: #e2e8f0; }
         .loop-label { fill: #64748b; }
-        .loop-step { fill: #1e293b; }
-        .loop-arrow { fill: #0284c7; }
-        .cursor { fill: #0284c7; }
-        .accent-line { stroke: #0284c7; }
+        .loop-step { fill: #27272a; }
+        .loop-arrow { fill: #71717a; }
+        .cursor { fill: #71717a; }
+        .accent-line { stroke: #71717a; }
       }
     </style>
   </defs>

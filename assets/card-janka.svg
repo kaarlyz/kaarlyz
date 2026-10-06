@@ -1,32 +1,32 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="560" height="272" viewBox="0 0 560 272" role="img" aria-label="Janka - Thermal waybill &amp; petty-cash reconciliation">
 <defs>
-<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1222"/><stop offset="1" stop-color="#060a14"/></linearGradient>
-<radialGradient id="gl"><stop offset="0" stop-color="#34d399" stop-opacity=".30"/><stop offset="1" stop-color="#34d399" stop-opacity="0"/></radialGradient>
-<radialGradient id="gl2"><stop offset="0" stop-color="#38bdf8" stop-opacity=".16"/><stop offset="1" stop-color="#38bdf8" stop-opacity="0"/></radialGradient>
-<linearGradient id="sweep" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="560" y2="0" spreadMethod="repeat"><stop offset="0" stop-color="#1e293b"/><stop offset=".42" stop-color="#1e293b"/><stop offset=".5" stop-color="#34d399"/><stop offset=".58" stop-color="#1e293b"/><stop offset="1" stop-color="#1e293b"/>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d0d10"/><stop offset="1" stop-color="#0d0d10"/></linearGradient>
+<radialGradient id="gl"><stop offset="0" stop-color="#52525b" stop-opacity=".30"/><stop offset="1" stop-color="#d4d4d8" stop-opacity="0"/></radialGradient>
+<radialGradient id="gl2"><stop offset="0" stop-color="#71717a" stop-opacity=".16"/><stop offset="1" stop-color="#d4d4d8" stop-opacity="0"/></radialGradient>
+<linearGradient id="sweep" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="560" y2="0" spreadMethod="repeat"><stop offset="0" stop-color="#27272a"/><stop offset=".42" stop-color="#27272a"/><stop offset=".5" stop-color="#d4d4d8"/><stop offset=".58" stop-color="#27272a"/><stop offset="1" stop-color="#27272a"/>
 <animateTransform attributeName="gradientTransform" type="translate" values="0 0;560 0" dur="4.5s" repeatCount="indefinite"/></linearGradient>
-<pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1" fill="#34d399" opacity=".16"/></pattern>
+<pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1" fill="#52525b" opacity=".16"/></pattern>
 <clipPath id="card"><rect x="1" y="1" width="558" height="270" rx="16"/></clipPath>
-<linearGradient id="ln" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#34d399" stop-opacity=".7"/><stop offset="1" stop-color="#34d399" stop-opacity="0"/></linearGradient>
+<linearGradient id="ln" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#52525b" stop-opacity=".7"/><stop offset="1" stop-color="#d4d4d8" stop-opacity="0"/></linearGradient>
 </defs>
 <rect x="1" y="1" width="558" height="270" rx="16" fill="url(#bg)"/>
 <g clip-path="url(#card)"><rect width="560" height="272" fill="url(#dots)"/>
 <circle cx="520" cy="30" r="140" fill="url(#gl)"><animate attributeName="r" values="120;165;120" dur="6s" repeatCount="indefinite"/></circle>
 <circle cx="30" cy="272" r="130" fill="url(#gl2)"><animate attributeName="r" values="110;150;110" dur="8s" repeatCount="indefinite"/></circle>
-<text x="538" y="92" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'DejaVu Sans Mono',monospace" font-size="78" font-weight="800" fill="#34d399" opacity=".07">03</text>
-<rect x="-120" y="0" width="90" height="272" fill="#34d399" opacity=".05" transform="skewX(-18)"><animate attributeName="x" values="-120;720" dur="7s" repeatCount="indefinite"/></rect></g>
+<text x="538" y="92" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'DejaVu Sans Mono',monospace" font-size="78" font-weight="800" fill="#52525b" opacity=".07">03</text>
+<rect x="-120" y="0" width="90" height="272" fill="#52525b" opacity=".05" transform="skewX(-18)"><animate attributeName="x" values="-120;720" dur="7s" repeatCount="indefinite"/></rect></g>
 <rect x="1" y="1" width="558" height="270" rx="16" fill="none" stroke="url(#sweep)" stroke-width="1.6"/>
-<rect x="28" y="24" width="90" height="22" rx="11" fill="#34d399" fill-opacity=".12" stroke="#34d399" stroke-opacity=".45"/>
-<text x="73" y="39" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'DejaVu Sans Mono',monospace" font-size="11" letter-spacing="1.6" fill="#34d399">LOGISTICS</text>
+<rect x="28" y="24" width="90" height="22" rx="11" fill="#52525b" fill-opacity=".12" stroke="#52525b" stroke-opacity=".45"/>
+<text x="73" y="39" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'DejaVu Sans Mono',monospace" font-size="11" letter-spacing="1.6" fill="#d4d4d8">LOGISTICS</text>
 <text x="28" y="86" font-family="'Inter','Segoe UI',system-ui,-apple-system,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="29" font-weight="800" fill="#f8fafc">Janka</text>
-<text x="28" y="110" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'DejaVu Sans Mono',monospace" font-size="12.5" fill="#34d399">Thermal waybill &amp; petty-cash reconciliation</text>
+<text x="28" y="110" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'DejaVu Sans Mono',monospace" font-size="12.5" fill="#d4d4d8">Thermal waybill &amp; petty-cash reconciliation</text>
 <rect x="28" y="124" width="504" height="1" fill="url(#ln)"/>
-<text x="28" y="152" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'DejaVu Sans Mono',monospace" font-size="13" fill="#38bdf8">▸</text><text x="48" y="152" font-family="'Inter','Segoe UI',system-ui,-apple-system,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="13.5" fill="#cbd5e1">Client-side 100×150mm thermal shipping label rendering</text>
-<text x="28" y="177" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'DejaVu Sans Mono',monospace" font-size="13" fill="#38bdf8">▸</text><text x="48" y="177" font-family="'Inter','Segoe UI',system-ui,-apple-system,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="13.5" fill="#cbd5e1">Nightly XLSX reconciliation with audit-ready ledger</text>
-<text x="28" y="202" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'DejaVu Sans Mono',monospace" font-size="13" fill="#38bdf8">▸</text><text x="48" y="202" font-family="'Inter','Segoe UI',system-ui,-apple-system,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="13.5" fill="#cbd5e1">Built to kill real warehouse paperwork friction</text>
-<rect x="28" y="226" width="89" height="24" rx="7" fill="#0f172a" stroke="#1e293b"/><text x="72" y="242" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'DejaVu Sans Mono',monospace" font-size="11" fill="#94a3b8">TypeScript</text>
-<rect x="125" y="226" width="54" height="24" rx="7" fill="#0f172a" stroke="#1e293b"/><text x="152" y="242" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'DejaVu Sans Mono',monospace" font-size="11" fill="#94a3b8">React</text>
-<rect x="188" y="226" width="48" height="24" rx="7" fill="#0f172a" stroke="#1e293b"/><text x="211" y="242" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'DejaVu Sans Mono',monospace" font-size="11" fill="#94a3b8">Vite</text>
-<rect x="243" y="226" width="68" height="24" rx="7" fill="#0f172a" stroke="#1e293b"/><text x="277" y="242" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'DejaVu Sans Mono',monospace" font-size="11" fill="#94a3b8">ExcelJS</text>
-<rect x="319" y="226" width="75" height="24" rx="7" fill="#0f172a" stroke="#1e293b"/><text x="357" y="242" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'DejaVu Sans Mono',monospace" font-size="11" fill="#94a3b8">Tailwind</text>
+<text x="28" y="152" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'DejaVu Sans Mono',monospace" font-size="13" fill="#d4d4d8">▸</text><text x="48" y="152" font-family="'Inter','Segoe UI',system-ui,-apple-system,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="13.5" fill="#cbd5e1">Client-side 100×150mm thermal shipping label rendering</text>
+<text x="28" y="177" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'DejaVu Sans Mono',monospace" font-size="13" fill="#d4d4d8">▸</text><text x="48" y="177" font-family="'Inter','Segoe UI',system-ui,-apple-system,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="13.5" fill="#cbd5e1">Nightly XLSX reconciliation with audit-ready ledger</text>
+<text x="28" y="202" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'DejaVu Sans Mono',monospace" font-size="13" fill="#d4d4d8">▸</text><text x="48" y="202" font-family="'Inter','Segoe UI',system-ui,-apple-system,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="13.5" fill="#cbd5e1">Built to kill real warehouse paperwork friction</text>
+<rect x="28" y="226" width="89" height="24" rx="7" fill="#121214" stroke="#27272a"/><text x="72" y="242" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'DejaVu Sans Mono',monospace" font-size="11" fill="#94a3b8">TypeScript</text>
+<rect x="125" y="226" width="54" height="24" rx="7" fill="#121214" stroke="#27272a"/><text x="152" y="242" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'DejaVu Sans Mono',monospace" font-size="11" fill="#94a3b8">React</text>
+<rect x="188" y="226" width="48" height="24" rx="7" fill="#121214" stroke="#27272a"/><text x="211" y="242" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'DejaVu Sans Mono',monospace" font-size="11" fill="#94a3b8">Vite</text>
+<rect x="243" y="226" width="68" height="24" rx="7" fill="#121214" stroke="#27272a"/><text x="277" y="242" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'DejaVu Sans Mono',monospace" font-size="11" fill="#94a3b8">ExcelJS</text>
+<rect x="319" y="226" width="75" height="24" rx="7" fill="#121214" stroke="#27272a"/><text x="357" y="242" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'DejaVu Sans Mono',monospace" font-size="11" fill="#94a3b8">Tailwind</text>
 </svg>

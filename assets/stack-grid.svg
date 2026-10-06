@@ -1,16 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 180" width="100%" height="100%">
   <defs>
     <style>
-      .card-bg { fill: #0F172A; stroke: #1E293B; stroke-width: 2px; }
-      .card-title { fill: #38BDF8; font-family: system-ui, -apple-system, sans-serif; font-size: 15px; font-weight: 700; text-anchor: middle; }
-      .text-badge-bg { fill: #1E293B; stroke: #334155; stroke-width: 1px; }
-      .text-badge-txt { fill: #38BDF8; font-family: system-ui, -apple-system, sans-serif; font-size: 12px; font-weight: 700; text-anchor: middle; }
+      .card-bg { fill: #121214; stroke: #27272a; stroke-width: 2px; }
+      .card-title { fill: #d4d4d8; font-family: system-ui, -apple-system, sans-serif; font-size: 15px; font-weight: 700; text-anchor: middle; }
+      .text-badge-bg { fill: #27272a; stroke: #3f3f46; stroke-width: 1px; }
+      .text-badge-txt { fill: #d4d4d8; font-family: system-ui, -apple-system, sans-serif; font-size: 12px; font-weight: 700; text-anchor: middle; }
 
       @media (prefers-color-scheme: light) {
         .card-bg { fill: #F8FAFC; stroke: #E2E8F0; }
-        .card-title { fill: #0284C7; }
+        .card-title { fill: #71717a; }
         .text-badge-bg { fill: #E2E8F0; stroke: #CBD5E1; }
-        .text-badge-txt { fill: #0284C7; }
+        .text-badge-txt { fill: #71717a; }
       }
     </style>
   </defs>
