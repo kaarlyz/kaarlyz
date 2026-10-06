@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="272" viewBox="0 0 560 272" role="img" aria-label="HOPDIS - Zero-relogin Linux migration CLI">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1222"/><stop offset="1" stop-color="#060a14"/></linearGradient>
+<radialGradient id="gl"><stop offset="0" stop-color="#fb923c" stop-opacity=".30"/><stop offset="1" stop-color="#fb923c" stop-opacity="0"/></radialGradient>
+<radialGradient id="gl2"><stop offset="0" stop-color="#fbbf24" stop-opacity=".16"/><stop offset="1" stop-color="#fbbf24" stop-opacity="0"/></radialGradient>
+<linearGradient id="sweep" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="560" y2="0" spreadMethod="repeat"><stop offset="0" stop-color="#1e293b"/><stop offset=".42" stop-color="#1e293b"/><stop offset=".5" stop-color="#fb923c"/><stop offset=".58" stop-color="#1e293b"/><stop offset="1" stop-color="#1e293b"/>
+<animateTransform attributeName="gradientTransform" type="translate" values="0 0;560 0" dur="4.5s" repeatCount="indefinite"/></linearGradient>
+<pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1" fill="#fb923c" opacity=".16"/></pattern>
+<clipPath id="card"><rect x="1" y="1" width="558" height="270" rx="16"/></clipPath>
+<linearGradient id="ln" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fb923c" stop-opacity=".7"/><stop offset="1" stop-color="#fb923c" stop-opacity="0"/></linearGradient>
+</defs>
+<rect x="1" y="1" width="558" height="270" rx="16" fill="url(#bg)"/>
+<g clip-path="url(#card)"><rect width="560" height="272" fill="url(#dots)"/>
+<circle cx="520" cy="30" r="140" fill="url(#gl)"><animate attributeName="r" values="120;165;120" dur="6s" repeatCount="indefinite"/></circle>
+<circle cx="30" cy="272" r="130" fill="url(#gl2)"><animate attributeName="r" values="110;150;110" dur="8s" repeatCount="indefinite"/></circle>
+<text x="538" y="92" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'DejaVu Sans Mono',monospace" font-size="78" font-weight="800" fill="#fb923c" opacity=".07">06</text>
+<rect x="-120" y="0" width="90" height="272" fill="#fb923c" opacity=".05" transform="skewX(-18)"><animate attributeName="x" values="-120;720" dur="7s" repeatCount="indefinite"/></rect></g>
+<rect x="1" y="1" width="558" height="270" rx="16" fill="none" stroke="url(#sweep)" stroke-width="1.6"/>
+<rect x="28" y="24" width="128" height="22" rx="11" fill="#fb923c" fill-opacity=".12" stroke="#fb923c" stroke-opacity=".45"/>
+<text x="92" y="39" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'DejaVu Sans Mono',monospace" font-size="11" letter-spacing="1.6" fill="#fb923c">DEVTOOLS · CLI</text>
+<text x="28" y="86" font-family="'Inter','Segoe UI',system-ui,-apple-system,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="29" font-weight="800" fill="#f8fafc">HOPDIS</text>
+<text x="28" y="110" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'DejaVu Sans Mono',monospace" font-size="12.5" fill="#fb923c">Zero-relogin Linux migration CLI</text>
+<rect x="28" y="124" width="504" height="1" fill="url(#ln)"/>
+<text x="28" y="152" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'DejaVu Sans Mono',monospace" font-size="13" fill="#fbbf24">▸</text><text x="48" y="152" font-family="'Inter','Segoe UI',system-ui,-apple-system,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="13.5" fill="#cbd5e1">Keeps Telegram tdata, Chrome, Firefox, Discord, SSH alive</text>
+<text x="28" y="177" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'DejaVu Sans Mono',monospace" font-size="13" fill="#fbbf24">▸</text><text x="48" y="177" font-family="'Inter','Segoe UI',system-ui,-apple-system,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="13.5" fill="#cbd5e1">Backs up / restores AI stack: Ollama, Cursor, 9Router</text>
+<text x="28" y="202" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'DejaVu Sans Mono',monospace" font-size="13" fill="#fbbf24">▸</text><text x="48" y="202" font-family="'Inter','Segoe UI',system-ui,-apple-system,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="13.5" fill="#cbd5e1">Arch · Debian · Fedora · Windows-to-Linux switchers</text>
+<rect x="28" y="226" width="48" height="24" rx="7" fill="#0f172a" stroke="#1e293b"/><text x="52" y="242" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'DejaVu Sans Mono',monospace" font-size="11" fill="#94a3b8">Bash</text>
+<rect x="84" y="226" width="89" height="24" rx="7" fill="#0f172a" stroke="#1e293b"/><text x="128" y="242" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'DejaVu Sans Mono',monospace" font-size="11" fill="#94a3b8">PowerShell</text>
+<rect x="181" y="226" width="61" height="24" rx="7" fill="#0f172a" stroke="#1e293b"/><text x="211" y="242" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'DejaVu Sans Mono',monospace" font-size="11" fill="#94a3b8">Rclone</text>
+<rect x="250" y="226" width="54" height="24" rx="7" fill="#0f172a" stroke="#1e293b"/><text x="277" y="242" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'DejaVu Sans Mono',monospace" font-size="11" fill="#94a3b8">Linux</text>
+</svg>
