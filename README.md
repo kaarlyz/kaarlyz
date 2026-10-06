@@ -6,23 +6,24 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1200&color=38BDF8&center=true&vCenter=true&width=720&height=36&lines=Production-grade+software%2C+shipped+end+to+end;Autonomous+AI+pipelines+%26+fullstack+web;Local-first+architecture%2C+zero+fluff;Learn+%E2%86%92+Build+%E2%86%92+Ship+%E2%86%92+Own" alt="Typing animation" />
 </a>
 
+<p>
+  <img src="https://img.shields.io/badge/STATUS-SHIPPING-38bdf8?style=for-the-badge&labelColor=0b1220" />
+  <img src="https://img.shields.io/badge/FOCUS-AUTONOMOUS_AI-a78bfa?style=for-the-badge&labelColor=0b1220" />
+  <img src="https://img.shields.io/badge/ARCH_LINUX-WAYLAND-1793d1?style=for-the-badge&logo=arch-linux&logoColor=white&labelColor=0b1220" />
+  <img src="https://img.shields.io/badge/BASE-INDONESIA-10b981?style=for-the-badge&labelColor=0b1220" />
+</p>
+
 <table border="0" style="border: none; background: transparent; margin: 6px 0 12px 0;">
   <tr style="border: none; background: transparent;">
-    <td align="center" width="130" valign="middle" style="border: none;">
-      <img src="assets/avatar.jpg" width="115" height="115" style="border-radius: 50%; border: 2.5px solid #38bdf8; box-shadow: 0 0 20px rgba(56, 189, 248, 0.4), 0 0 40px rgba(56, 189, 248, 0.2); object-fit: cover;" alt="Avatar" />
+    <td align="center" width="125" valign="middle" style="border: none;">
+      <img src="assets/avatar.jpg" width="110" height="110" style="border-radius: 50%; border: 2.5px solid #38bdf8; box-shadow: 0 0 20px rgba(56, 189, 248, 0.4), 0 0 40px rgba(56, 189, 248, 0.2); object-fit: cover;" alt="Avatar" />
     </td>
     <td valign="middle" align="left" style="border: none; padding-left: 16px;">
       <p style="margin: 0; color: #f8fafc; font-size: 15px; font-weight: 700; letter-spacing: -0.2px;">
         Eka Restu Syahputra 👋 <span style="color: #38bdf8; font-family: monospace; font-size: 13px; font-weight: 600;">@kaarlyz</span>
       </p>
-      <p style="margin: 4px 0 8px 0; color: #94a3b8; font-size: 13.5px; line-height: 1.5;">
+      <p style="margin: 4px 0 0 0; color: #94a3b8; font-size: 13px; line-height: 1.5;">
         <i>"The cost of failing at 17 is Rp0. Eliminate speculative noise, master first principles, build proof of work, and let the code speak."</i>
-      </p>
-      <p style="margin: 0;">
-        <img src="https://img.shields.io/badge/STATUS-SHIPPING-38bdf8?style=for-the-badge&labelColor=0b1220" />
-        <img src="https://img.shields.io/badge/FOCUS-AUTONOMOUS_AI-a78bfa?style=for-the-badge&labelColor=0b1220" />
-        <img src="https://img.shields.io/badge/ARCH_LINUX-WAYLAND-1793d1?style=for-the-badge&logo=arch-linux&logoColor=white&labelColor=0b1220" />
-        <img src="https://img.shields.io/badge/BASE-INDONESIA-10b981?style=for-the-badge&labelColor=0b1220" />
       </p>
     </td>
   </tr>
@@ -102,8 +103,9 @@
 | Token cost and rate limits | 9Router gateway with custom-header token-saver bypass, model cooldown handling, and per-domain adaptive temperature |
 | Speed and offline resilience | PWA with service-worker caching, native Node.js HTTP server (no Express), in-process SQLite in WAL mode with cascading deletes |
 
-* **Adaptive domains:** Exact sciences get KaTeX equations and UTBK-style worked examples; practical topics get playbook-style output.
-* **Continuously audited:** Prompts, context truncation, tone consistency, mobile table/diagram rendering, and OCR typo correction are stress-tested on real study material rather than assumed to work.
+**Adaptive domains.** Exact sciences get KaTeX equations and UTBK-style worked examples; practical topics get playbook-style output.
+
+**Continuously audited.** Prompts, context truncation, tone consistency, mobile table/diagram rendering, and OCR typo correction are stress-tested on real study material rather than assumed to work.
 
 <br/>
 
@@ -116,16 +118,40 @@
   </a>
 </p>
 
-<p align="center">
-  <img src="assets/skills.svg" width="90%" alt="Language distribution" />
-</p>
+**Frontend and UX systems** <br/>
+![TypeScript](https://img.shields.io/badge/TypeScript-0f172a?style=flat-square&logo=typescript&logoColor=38bdf8)
+![React](https://img.shields.io/badge/React_18/19-0f172a?style=flat-square&logo=react&logoColor=38bdf8)
+![Vite](https://img.shields.io/badge/Vite-0f172a?style=flat-square&logo=vite&logoColor=a78bfa)
+![Tailwind](https://img.shields.io/badge/Tailwind-0f172a?style=flat-square&logo=tailwindcss&logoColor=38bdf8)
+![KaTeX](https://img.shields.io/badge/KaTeX-0f172a?style=flat-square)
+![PWA](https://img.shields.io/badge/PWA_+_Service_Workers-0f172a?style=flat-square)
+![Design](https://img.shields.io/badge/Editorial_anti--slop_UI-0f172a?style=flat-square)
 
-| Category | Systems & Technologies |
-|:--|:--|
-| **Frontend and UX systems** | `TypeScript` • `React 18/19` • `Vite` • `Tailwind CSS` • `KaTeX Typesetting` • `PWA & Service Workers` • `Editorial Anti-Slop UI` |
-| **Backend and data layer** | `Node.js (Native HTTP)` • `Express` • `Python 3.14 (uv)` • `SQLite (WAL-Mode, better-sqlite3)` • `WebSockets` • `Protocol Buffers` • `ExcelJS` |
-| **AI engineering** | `Two-Pass V3 Grounded Pipelines` • `Vision OCR Parallel Workers` • `MCP & CDP Control` • `9Router Gateway & Header Bypass` • `faster-whisper` • `MediaPipe Tasks` |
-| **Quant, vision and systems** | `R:R Distribution & Sharpe Auditing` • `MQL5 Expert Advisors` • `NumPy Vectorized Physics` • `Arch Linux (Zen, GNOME Wayland)` • `Bash & Zsh Automation` • `Rclone` |
+**Backend and data layer** <br/>
+![Node.js](https://img.shields.io/badge/Node.js_native_HTTP-0f172a?style=flat-square&logo=nodedotjs&logoColor=34d399)
+![Express](https://img.shields.io/badge/Express-0f172a?style=flat-square&logo=express&logoColor=white)
+![Python](https://img.shields.io/badge/Python_3.14_+_uv-0f172a?style=flat-square&logo=python&logoColor=fbbf24)
+![SQLite](https://img.shields.io/badge/SQLite_WAL-0f172a?style=flat-square&logo=sqlite&logoColor=38bdf8)
+![WebSockets](https://img.shields.io/badge/WebSockets-0f172a?style=flat-square)
+![Protobuf](https://img.shields.io/badge/Protocol_Buffers-0f172a?style=flat-square)
+![ExcelJS](https://img.shields.io/badge/ExcelJS-0f172a?style=flat-square)
+
+**AI engineering** <br/>
+![Pipelines](https://img.shields.io/badge/Multi--stage_grounded_pipelines-0f172a?style=flat-square)
+![Vision](https://img.shields.io/badge/Vision_OCR_+_parallel_workers-0f172a?style=flat-square)
+![MCP](https://img.shields.io/badge/MCP_+_CDP-0f172a?style=flat-square)
+![9Router](https://img.shields.io/badge/9Router_gateway-0f172a?style=flat-square)
+![Whisper](https://img.shields.io/badge/faster--whisper-0f172a?style=flat-square)
+![MediaPipe](https://img.shields.io/badge/MediaPipe_Tasks-0f172a?style=flat-square)
+
+**Quant, vision and systems** <br/>
+![Quant](https://img.shields.io/badge/R:R,_drawdown,_Sharpe-0f172a?style=flat-square)
+![MQL5](https://img.shields.io/badge/MQL5_Expert_Advisors-0f172a?style=flat-square)
+![NumPy](https://img.shields.io/badge/NumPy_vectorized_physics-0f172a?style=flat-square)
+![Arch](https://img.shields.io/badge/Arch_Linux-0f172a?style=flat-square&logo=archlinux&logoColor=1793d1)
+![Bash](https://img.shields.io/badge/Bash_/_Zsh_/_D--Bus-0f172a?style=flat-square&logo=gnubash&logoColor=34d399)
+![Git](https://img.shields.io/badge/Git-0f172a?style=flat-square&logo=git&logoColor=fb923c)
+![Rclone](https://img.shields.io/badge/Rclone-0f172a?style=flat-square)
 
 <br/>
 
@@ -168,11 +194,10 @@
 
 <div align="center">
 
-Open to talking architecture, AI pipelines, or building something together. Reach out through GitHub or Telegram.
+Open to talking architecture, AI pipelines, or building something together. Reach out through GitHub.
 
+<!-- Add other contact links here: email / LinkedIn / Telegram -->
 <a href="https://github.com/kaarlyz"><img src="https://img.shields.io/badge/GitHub-@kaarlyz-0b1220?style=for-the-badge&logo=github&logoColor=38bdf8" alt="GitHub" /></a>
-
-<br/>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:090d16,50:0369a1,100:38bdf8&height=110&section=footer" width="100%" alt="" />
 
