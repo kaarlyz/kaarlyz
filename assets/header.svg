@@ -88,16 +88,16 @@
     <!-- 3 Mini Stat Chips -->
     <g transform="translate(0, 125)">
       <!-- Chip 1: Repos -->
-      <rect x="0" y="0" width="210" height="36" class="chip-bg" />
-      <text x="16" y="23" class="chip-txt"><tspan class="chip-highlight">📦 8</tspan> Public Repositories</text>
+      <rect x="0" y="0" width="220" height="36" class="chip-bg" />
+      <text x="16" y="23" class="chip-txt"><tspan class="chip-highlight">📦 10+</tspan> Public Repositories</text>
 
       <!-- Chip 2: Tech Core -->
-      <rect x="230" y="0" width="270" height="36" class="chip-bg" />
-      <text x="246" y="23" class="chip-txt"><tspan class="chip-highlight">⚡</tspan> MQL5 • TypeScript • Python</text>
+      <rect x="240" y="0" width="310" height="36" class="chip-bg" />
+      <text x="256" y="23" class="chip-txt"><tspan class="chip-highlight">⚡</tspan> TypeScript • Python • SQLite • C++</text>
 
       <!-- Chip 3: Status -->
-      <rect x="520" y="0" width="240" height="36" class="chip-bg" />
-      <text x="536" y="23" class="chip-txt"><tspan class="chip-highlight">🇮🇩</tspan> SMA Student Builder</text>
+      <rect x="570" y="0" width="260" height="36" class="chip-bg" />
+      <text x="586" y="23" class="chip-txt"><tspan class="chip-highlight">🚀</tspan> Full-Stack &amp; Systems Builder</text>
     </g>
 
     <!-- Engineering Loop Box -->

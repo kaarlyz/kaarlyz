@@ -1,23 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 220" width="100%" height="220">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" width="100%" height="240">
   <defs>
     <style>
-      @keyframes animTs { from { width: 0px; } to { width: 468px; } }   /* 78% of 600px */
-      @keyframes animJs { from { width: 0px; } to { width: 420px; } }   /* 70% of 600px */
-      @keyframes animPy { from { width: 0px; } to { width: 330px; } }   /* 55% of 600px */
-      @keyframes animMql { from { width: 0px; } to { width: 240px; } }  /* 40% of 600px */
-      @keyframes animCss { from { width: 0px; } to { width: 390px; } }  /* 65% of 600px */
+      @keyframes animTs { from { width: 0px; } to { width: 492px; } }   /* 82% of 600px */
+      @keyframes animJs { from { width: 0px; } to { width: 450px; } }   /* 75% of 600px */
+      @keyframes animPy { from { width: 0px; } to { width: 408px; } }   /* 68% of 600px */
+      @keyframes animSql { from { width: 0px; } to { width: 390px; } }  /* 65% of 600px */
+      @keyframes animBash { from { width: 0px; } to { width: 360px; } } /* 60% of 600px */
 
-      .skills-card { fill: #0f172a; stroke: #1e293b; stroke-width: 1.5; rx: 6px; }
-      .bar-bg { fill: #1e293b; rx: 3px; }
-      .bar-ts { fill: #3178c6; rx: 3px; animation: animTs 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
-      .bar-js { fill: #f7df1e; rx: 3px; animation: animJs 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
-      .bar-py { fill: #3776ab; rx: 3px; animation: animPy 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
-      .bar-mql { fill: #0088cc; rx: 3px; animation: animMql 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
-      .bar-css { fill: #38bdf8; rx: 3px; animation: animCss 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
+      .skills-card { fill: #090d16; stroke: #1e293b; stroke-width: 1.5; rx: 8px; }
+      .bar-bg { fill: #1e293b; rx: 4px; }
+      .bar-ts { fill: #38bdf8; rx: 4px; animation: animTs 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
+      .bar-js { fill: #facc15; rx: 4px; animation: animJs 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
+      .bar-py { fill: #60a5fa; rx: 4px; animation: animPy 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
+      .bar-sql { fill: #34d399; rx: 4px; animation: animSql 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
+      .bar-bash { fill: #a78bfa; rx: 4px; animation: animBash 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
 
-      .lang-label { fill: #f8fafc; font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: 11.5px; font-weight: 600; }
-      .percent-label { fill: #94a3b8; font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: 11px; font-weight: 600; }
-      .disclaimer { fill: #64748b; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 10.5px; font-style: italic; }
+      .lang-label { fill: #f8fafc; font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: 12px; font-weight: 600; }
+      .percent-label { fill: #94a3b8; font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: 11.5px; font-weight: 600; }
+      .disclaimer { fill: #64748b; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 11px; font-style: italic; }
 
       @media (prefers-color-scheme: light) {
         .skills-card { fill: #ffffff; stroke: #cbd5e1; }
@@ -30,40 +30,40 @@
   </defs>
 
   <!-- Background Card -->
-  <rect x="5" y="5" width="790" height="210" class="skills-card" />
+  <rect x="5" y="5" width="790" height="230" class="skills-card" />
 
   <g transform="translate(25, 25)">
-    <!-- TypeScript (78%) -->
+    <!-- TypeScript (82%) -->
     <text x="0" y="16" class="lang-label">TypeScript</text>
-    <rect x="130" y="5" width="600" height="13" class="bar-bg" />
-    <rect x="130" y="5" width="468" height="13" class="bar-ts" />
-    <text x="740" y="16" class="percent-label">78%</text>
+    <rect x="135" y="5" width="590" height="13" class="bar-bg" />
+    <rect x="135" y="5" width="484" height="13" class="bar-ts" />
+    <text x="735" y="16" class="percent-label">82%</text>
 
-    <!-- JavaScript (70%) -->
+    <!-- JavaScript & Node (75%) -->
     <text x="0" y="51" class="lang-label">JavaScript (Node)</text>
-    <rect x="130" y="40" width="600" height="13" class="bar-bg" />
-    <rect x="130" y="40" width="420" height="13" class="bar-js" />
-    <text x="740" y="51" class="percent-label">70%</text>
+    <rect x="135" y="40" width="590" height="13" class="bar-bg" />
+    <rect x="135" y="40" width="442" height="13" class="bar-js" />
+    <text x="735" y="51" class="percent-label">75%</text>
 
-    <!-- Python (55%) -->
-    <text x="0" y="86" class="lang-label">Python</text>
-    <rect x="130" y="75" width="600" height="13" class="bar-bg" />
-    <rect x="130" y="75" width="330" height="13" class="bar-py" />
-    <text x="740" y="86" class="percent-label">55%</text>
+    <!-- Python (68%) -->
+    <text x="0" y="86" class="lang-label">Python (Fast Scripting)</text>
+    <rect x="135" y="75" width="590" height="13" class="bar-bg" />
+    <rect x="135" y="75" width="401" height="13" class="bar-py" />
+    <text x="735" y="86" class="percent-label">68%</text>
 
-    <!-- HTML / CSS (65%) -->
-    <text x="0" y="121" class="lang-label">HTML / CSS (Tailwind)</text>
-    <rect x="130" y="110" width="600" height="13" class="bar-bg" />
-    <rect x="130" y="110" width="390" height="13" class="bar-css" />
-    <text x="740" y="121" class="percent-label">65%</text>
+    <!-- SQL & SQLite (65%) -->
+    <text x="0" y="121" class="lang-label">SQLite &amp; SQL (WAL)</text>
+    <rect x="135" y="110" width="590" height="13" class="bar-bg" />
+    <rect x="135" y="110" width="383" height="13" class="bar-sql" />
+    <text x="735" y="121" class="percent-label">65%</text>
 
-    <!-- MQL5 (40%) -->
-    <text x="0" y="156" class="lang-label">MQL5 (MT5 EA)</text>
-    <rect x="130" y="145" width="600" height="13" class="bar-bg" />
-    <rect x="130" y="145" width="240" height="13" class="bar-mql" />
-    <text x="740" y="156" class="percent-label">40%</text>
+    <!-- Bash & Systems (60%) -->
+    <text x="0" y="156" class="lang-label">Bash &amp; Linux CLI</text>
+    <rect x="135" y="145" width="590" height="13" class="bar-bg" />
+    <rect x="135" y="145" width="354" height="13" class="bar-bash" />
+    <text x="735" y="156" class="percent-label">60%</text>
 
     <!-- Disclaimer -->
-    <text x="130" y="180" class="disclaimer">* Relative exposure metrics estimated based on committed code volume in public repositories, not formal certification.</text>
+    <text x="135" y="195" class="disclaimer">⚡ Production frequency estimated from public git repositories &amp; operational systems.</text>
   </g>
 </svg>
