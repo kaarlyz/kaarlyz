@@ -3,7 +3,7 @@
 <img src="assets/banner.svg" width="100%" alt="Eka Restu Syahputra - Fullstack and Autonomous AI Systems" />
 
 <a href="https://github.com/kaarlyz">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1200&color=38BDF8&center=true&vCenter=true&width=720&height=36&lines=Turning+ideas+into+production-grade+software;Autonomous+AI+pipelines+%26+fullstack+web;Building+Tanka%3A+a+grounded+AI+study+engine;Learn+%E2%86%92+Build+%E2%86%92+Ship+%E2%86%92+Own" alt="Typing animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1200&color=38BDF8&center=true&vCenter=true&width=720&height=36&lines=Production-grade+software%2C+shipped+end+to+end;Autonomous+AI+pipelines+%26+fullstack+web;Local-first+architecture%2C+zero+fluff;Learn+%E2%86%92+Build+%E2%86%92+Ship+%E2%86%92+Own" alt="Typing animation" />
 </a>
 
 <p>
@@ -14,11 +14,11 @@
 </p>
 
 <p>
-  <a href="#-01--selected-work"><b>Work</b></a> &nbsp;·&nbsp;
-  <a href="#-02--flagship-tanka"><b>Tanka</b></a> &nbsp;·&nbsp;
-  <a href="#-03--tech-arsenal"><b>Stack</b></a> &nbsp;·&nbsp;
-  <a href="#-04--how-i-engineer"><b>Principles</b></a> &nbsp;·&nbsp;
-  <a href="#-05--telemetry"><b>Telemetry</b></a>
+  <a href="#work"><b>Work</b></a> &nbsp;/&nbsp;
+  <a href="#tanka"><b>Tanka</b></a> &nbsp;/&nbsp;
+  <a href="#stack"><b>Stack</b></a> &nbsp;/&nbsp;
+  <a href="#principles"><b>Principles</b></a> &nbsp;/&nbsp;
+  <a href="#telemetry"><b>Telemetry</b></a>
 </p>
 
 </div>
@@ -31,12 +31,11 @@
 
 <br/>
 
-> **I build things that run.** Autonomous AI pipelines, local-first data layers, and interfaces that stay out of your way. Every repo below started as a real friction and ended as a shipped artifact.
+> **I build systems that run in production, not demos.** Autonomous AI pipelines, local-first data layers, and fast interfaces. Every project below started as a real operational friction and ended as a working artifact.
 
 <br/>
 
-## 🛰️ 01 · Selected Work
-
+<a id="work"></a>
 <img src="assets/hdr-work.svg" width="100%" alt="Selected Work" />
 
 <p align="center">
@@ -49,7 +48,7 @@
 </p>
 
 <details open>
-<summary><b>🖼️ Interface previews</b></summary>
+<summary><b>Interface previews</b></summary>
 <br/>
 <p align="center">
   <a href="https://github.com/kaarlyz/Tanka"><img src="assets/screenshot-tanka.png" width="32%" alt="Tanka UI" /></a>
@@ -58,45 +57,43 @@
 </p>
 </details>
 
-**🔬 Experiments & side quests**
+**Experiments**
 
-- 📈 **[MCP-TradingView](https://github.com/kaarlyz/MCP-TRADINGVIEW)**: Model Context Protocol server that lets AI agents drive TradingView Desktop charts over Chrome DevTools Protocol. `Node.js` `MCP` `CDP`
-- 🤖 **[RemiBot](https://github.com/kaarlyz/remibot)**: modular WhatsApp automation on the Baileys socket library: structured workflows and broadcast queues. `JavaScript` `Baileys`
-- ☕ **[MyCoffee](https://github.com/kaarlyz/mycoffee)**: coffee ordering storefront experiment. `Next.js` `TypeScript`
+- **[MCP-TradingView](https://github.com/kaarlyz/MCP-TRADINGVIEW)**: Model Context Protocol server that lets AI coding agents inspect and control TradingView Desktop natively through Chrome DevTools Protocol. `TypeScript` `Node.js` `MCP` `CDP`
+- **[RemiBot](https://github.com/kaarlyz/remibot)**: modular WhatsApp automation on the Baileys WebSocket library, built around structured workflows and broadcast queues. `JavaScript` `Baileys`
+- **[MyCoffee](https://github.com/kaarlyz/mycoffee)**: coffee ordering storefront experiment. `Next.js` `TypeScript`
 
 <br/>
 
-## 🧠 02 · Flagship: Tanka
-
+<a id="tanka"></a>
 <img src="assets/hdr-tanka.svg" width="100%" alt="Flagship: Tanka" />
 
-**Tanka (短歌)** turns textbooks, handwritten notes, PDFs, and YouTube videos into a structured mastery system for Indonesian SMA/UTBK students. The core idea: **generation must be grounded.** Content is built from verified concepts extracted from the source, not from the model's imagination.
+**Tanka (短歌)** is an adaptive study platform that turns textbooks, handwritten notes, PDFs, and YouTube videos into a structured mastery system for Indonesian SMA/UTBK students. The core design rule: **generation must be grounded.** Facts are extracted and verified first, and only then synthesized into teaching material.
 
 <p align="center">
   <img src="assets/tanka-pipeline.svg" width="100%" alt="Tanka pipeline: ingest, segment, ground, generate, retain" />
 </p>
 
-| Layer | Implementation |
+**Engineering problems solved**
+
+| Problem | Approach |
 |:--|:--|
-| **Server** | Native Node.js HTTP server, no Express |
-| **Storage** | SQLite in WAL mode via `better-sqlite3`, local-first |
-| **Ingestion** | `extract_text.py`: `pdftotext`, Tesseract OCR, PPTX/DOCX XML parsing, vision API for images |
-| **Grounding** | Two-pass pipeline: `document_segments` → `document_concepts` (tagged `source` or `ai_enrichment`) → generated content |
-| **AI gateway** | 9Router: model routing, cooldowns, token-saver bypass |
-| **Tutor** | "Tanya Nara": session-isolated chat with two-layer persistence (localStorage + SQLite) |
-| **Active recall** | HOTS quizzes, hidden formula cards, Leitner flashcards, mistakes bank, Feynman test with `MediaRecorder` → `faster-whisper` |
-| **Frontend** | Vite + React + TypeScript, KaTeX for exact-science typesetting, installable PWA |
+| Model hallucination in study material | Two-Pass V3 pipeline: Pass 1 extracts canonical facts, Pass 2 does adaptive pedagogical synthesis. Concepts carry an origin tag (`source` or `ai_enrichment`) and are checked against the national curriculum (Ruangguru / Wikipedia) |
+| OCR timeouts on large handwritten scans | Client-side HTML5 canvas compression with dynamic sizing, plus parallel multi-worker AI OCR to stay under HTTP / Cloudflare timeout limits |
+| Complex math rendering | KaTeX typesetting with HTML tag isolation so expressions survive generation and sanitizing |
+| Source diversity | Unified ingestion: `pdftotext`, Tesseract, PPTX/DOCX XML parsing, vision API for images, multilingual YouTube transcript extractor |
+| Tutor context bleeding between documents | "Tanya Nara" with per-document session isolation and two-layer persistence (localStorage + SQLite) |
+| Retention, not just reading | HOTS quizzes micro-batched up to 20 questions, hidden formula cards, Leitner spaced-repetition flashcards, mistakes bank, Feynman voice test (`MediaRecorder` to `faster-whisper`) |
+| Token cost and rate limits | 9Router gateway with custom-header token-saver bypass, model cooldown handling, and per-domain adaptive temperature |
+| Speed and offline resilience | PWA with service-worker caching, native Node.js HTTP server (no Express), in-process SQLite in WAL mode with cascading deletes |
 
-**What makes it different**
+**Adaptive domains.** Exact sciences get KaTeX equations and UTBK-style worked examples; practical topics get playbook-style output.
 
-- 🎯 **Provenance by design:** concepts carry an origin tag, so source-backed facts and AI enrichment never get mixed up.
-- 📐 **Adaptive domains:** exact sciences get KaTeX equations and UTBK-style worked examples; practical topics get playbook-style output.
-- 🔍 **Self-audited:** I regularly stress-test my own prompts and pipeline: context truncation, tone consistency, mobile table/diagram rendering, OCR typo correction.
+**Continuously audited.** Prompts, context truncation, tone consistency, mobile table/diagram rendering, and OCR typo correction are stress-tested on real study material rather than assumed to work.
 
 <br/>
 
-## ⚙️ 03 · Tech Arsenal
-
+<a id="stack"></a>
 <img src="assets/hdr-stack.svg" width="100%" alt="Tech Arsenal" />
 
 <p align="center">
@@ -105,56 +102,56 @@
   </a>
 </p>
 
-**Frontend & experience** <br/>
+**Frontend and UX systems** <br/>
 ![TypeScript](https://img.shields.io/badge/TypeScript-0f172a?style=flat-square&logo=typescript&logoColor=38bdf8)
 ![React](https://img.shields.io/badge/React_18/19-0f172a?style=flat-square&logo=react&logoColor=38bdf8)
 ![Vite](https://img.shields.io/badge/Vite-0f172a?style=flat-square&logo=vite&logoColor=a78bfa)
 ![Tailwind](https://img.shields.io/badge/Tailwind-0f172a?style=flat-square&logo=tailwindcss&logoColor=38bdf8)
 ![KaTeX](https://img.shields.io/badge/KaTeX-0f172a?style=flat-square)
-![PWA](https://img.shields.io/badge/PWA-0f172a?style=flat-square)
-![Design](https://img.shields.io/badge/Editorial_UI_systems-0f172a?style=flat-square)
+![PWA](https://img.shields.io/badge/PWA_+_Service_Workers-0f172a?style=flat-square)
+![Design](https://img.shields.io/badge/Editorial_anti--slop_UI-0f172a?style=flat-square)
 
-**Backend & core systems** <br/>
-![Node.js](https://img.shields.io/badge/Node.js_raw_HTTP-0f172a?style=flat-square&logo=nodedotjs&logoColor=34d399)
+**Backend and data layer** <br/>
+![Node.js](https://img.shields.io/badge/Node.js_native_HTTP-0f172a?style=flat-square&logo=nodedotjs&logoColor=34d399)
 ![Express](https://img.shields.io/badge/Express-0f172a?style=flat-square&logo=express&logoColor=white)
-![Python](https://img.shields.io/badge/Python-0f172a?style=flat-square&logo=python&logoColor=fbbf24)
+![Python](https://img.shields.io/badge/Python_3.14_+_uv-0f172a?style=flat-square&logo=python&logoColor=fbbf24)
 ![SQLite](https://img.shields.io/badge/SQLite_WAL-0f172a?style=flat-square&logo=sqlite&logoColor=38bdf8)
 ![WebSockets](https://img.shields.io/badge/WebSockets-0f172a?style=flat-square)
 ![Protobuf](https://img.shields.io/badge/Protocol_Buffers-0f172a?style=flat-square)
+![ExcelJS](https://img.shields.io/badge/ExcelJS-0f172a?style=flat-square)
 
-**AI & automation** <br/>
-![Pipelines](https://img.shields.io/badge/Multi--stage_AI_pipelines-0f172a?style=flat-square)
-![Grounding](https://img.shields.io/badge/Grounded_generation-0f172a?style=flat-square)
+**AI engineering** <br/>
+![Pipelines](https://img.shields.io/badge/Multi--stage_grounded_pipelines-0f172a?style=flat-square)
+![Vision](https://img.shields.io/badge/Vision_OCR_+_parallel_workers-0f172a?style=flat-square)
 ![MCP](https://img.shields.io/badge/MCP_+_CDP-0f172a?style=flat-square)
 ![9Router](https://img.shields.io/badge/9Router_gateway-0f172a?style=flat-square)
-![MediaPipe](https://img.shields.io/badge/MediaPipe-0f172a?style=flat-square)
 ![Whisper](https://img.shields.io/badge/faster--whisper-0f172a?style=flat-square)
-![OCR](https://img.shields.io/badge/Tesseract_OCR-0f172a?style=flat-square)
+![MediaPipe](https://img.shields.io/badge/MediaPipe_Tasks-0f172a?style=flat-square)
 
-**Environment & ops** <br/>
+**Quant, vision and systems** <br/>
+![Quant](https://img.shields.io/badge/R:R,_drawdown,_Sharpe-0f172a?style=flat-square)
+![MQL5](https://img.shields.io/badge/MQL5_Expert_Advisors-0f172a?style=flat-square)
+![NumPy](https://img.shields.io/badge/NumPy_vectorized_physics-0f172a?style=flat-square)
 ![Arch](https://img.shields.io/badge/Arch_Linux-0f172a?style=flat-square&logo=archlinux&logoColor=1793d1)
-![Bash](https://img.shields.io/badge/Bash_/_Zsh-0f172a?style=flat-square&logo=gnubash&logoColor=34d399)
-![systemd](https://img.shields.io/badge/systemd-0f172a?style=flat-square)
+![Bash](https://img.shields.io/badge/Bash_/_Zsh_/_D--Bus-0f172a?style=flat-square&logo=gnubash&logoColor=34d399)
 ![Git](https://img.shields.io/badge/Git-0f172a?style=flat-square&logo=git&logoColor=fb923c)
-![Neovim](https://img.shields.io/badge/Neovim-0f172a?style=flat-square&logo=neovim&logoColor=34d399)
 ![Rclone](https://img.shields.io/badge/Rclone-0f172a?style=flat-square)
 
 <br/>
 
-## 🧭 04 · How I Engineer
-
+<a id="principles"></a>
 <img src="assets/hdr-principles.svg" width="100%" alt="How I Engineer" />
 
-- 🧱 **Grounded > fluent.** AI output should trace back to a source, or be labeled as enrichment.
-- 🏠 **Local-first, low-dependency.** Raw Node HTTP and SQLite WAL: fewer moving parts, easier to debug and ship on a single box.
-- 🔬 **Audit your own pipeline.** Prompts, context limits, tone drift, and OCR noise all get tested, not assumed.
-- 📦 **Ship artifacts, not tutorials.** Study retention, trade discipline, warehouse paperwork, OS migration: each project solves a friction I actually had or saw.
-- 🎨 **Design is engineering.** Dark, editorial, no template slop, with real typesetting (KaTeX) and mobile-first PWAs.
+- **Proof of work over claims.** A working artifact beats a certificate or a slide.
+- **Grounded over fluent.** AI output must trace back to a source or be labeled as enrichment.
+- **Local-first, low-dependency.** Native HTTP and in-process SQLite: fewer moving parts, zero network latency to the data layer, easier to debug and ship.
+- **Plan, then execute fast.** Define the concrete steps first, then move without ceremony.
+- **Audit your own pipeline.** Prompts, context limits, tone drift, and OCR noise get tested, not assumed.
+- **Design is engineering.** Clean editorial interfaces, no template slop, no visual clutter, instant interactions.
 
 <br/>
 
-## 📡 05 · Telemetry
-
+<a id="telemetry"></a>
 <img src="assets/hdr-telemetry.svg" width="100%" alt="Telemetry" />
 
 <p align="center">
@@ -176,18 +173,15 @@
 
 <br/>
 
-## 🤝 06 · Let's Build
-
+<a id="contact"></a>
 <img src="assets/hdr-contact.svg" width="100%" alt="Let's Build" />
 
 <div align="center">
 
-Open to talking architecture, AI pipelines, or building something together. Drop an issue or reach out through GitHub.
+Open to talking architecture, AI pipelines, or building something together. Reach out through GitHub.
 
-<!-- Tambahin kontak lain di sini kalau mau: email / LinkedIn / Telegram -->
+<!-- Add other contact links here: email / LinkedIn / Telegram -->
 <a href="https://github.com/kaarlyz"><img src="https://img.shields.io/badge/GitHub-@kaarlyz-0b1220?style=for-the-badge&logo=github&logoColor=38bdf8" alt="GitHub" /></a>
-
-<sub><i>"Tatakae. Keep moving forward until the artifact is built."</i></sub>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:090d16,50:0369a1,100:38bdf8&height=110&section=footer" width="100%" alt="" />
 
